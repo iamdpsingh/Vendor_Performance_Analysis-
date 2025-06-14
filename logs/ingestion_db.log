@@ -1,0 +1,241 @@
+2025-06-04 22:58:42,717 - INFO - 🚀 Starting data ingestion...
+2025-06-04 22:58:42,718 - INFO - Uploading data/purchases.csv to purchases using COPY...
+2025-06-04 22:58:58,017 - INFO - Uploading data/purchase_prices.csv to purchase_prices using COPY...
+2025-06-04 22:58:58,052 - INFO - Uploading data/sales.csv to sales using COPY...
+2025-06-04 23:00:27,221 - INFO - Uploading data/vendor_invoice.csv to vendor_invoice using COPY...
+2025-06-04 23:00:27,451 - INFO - Uploading data/begin_inventory.csv to begin_inventory using COPY...
+2025-06-04 23:00:28,789 - INFO - Uploading data/end_inventory.csv to end_inventory using COPY...
+2025-06-04 23:02:40,486 - INFO - 🚀 Starting data ingestion...
+2025-06-04 23:02:40,486 - INFO - Uploading data/purchases.csv to purchases using COPY...
+2025-06-04 23:02:58,875 - INFO - Uploading data/purchase_prices.csv to purchase_prices using COPY...
+2025-06-04 23:02:58,904 - INFO - Uploading data/sales.csv to sales using COPY...
+2025-06-04 23:04:32,748 - INFO - Uploading data/vendor_invoice.csv to vendor_invoice using COPY...
+2025-06-04 23:04:32,779 - INFO - Uploading data/begin_inventory.csv to begin_inventory using COPY...
+2025-06-04 23:04:33,717 - INFO - Uploading data/end_inventory.csv to end_inventory using COPY...
+2025-06-04 23:09:52,573 - INFO - 🚀 Starting data ingestion...
+2025-06-04 23:09:52,646 - INFO - ⏩ Skipping purchases, already exists in database.
+2025-06-04 23:09:52,649 - INFO - ⏩ Skipping purchase_prices, already exists in database.
+2025-06-04 23:09:52,652 - INFO - ⏩ Skipping sales, already exists in database.
+2025-06-04 23:09:52,654 - INFO - ⏩ Skipping vendor_invoice, already exists in database.
+2025-06-04 23:09:52,656 - INFO - ⏩ Skipping begin_inventory, already exists in database.
+2025-06-04 23:09:52,657 - INFO - ⏩ Skipping end_inventory, already exists in database.
+2025-06-04 23:09:52,657 - INFO - ✅ Ingestion complete in 0.00 minutes.
+2025-06-13 23:03:15,739 - INFO - 🚀 Starting data ingestion...
+2025-06-13 23:03:15,749 - INFO - ⬆️ Uploading purchases from data/purchases.csv...
+2025-06-13 23:03:15,749 - INFO - Uploading data/purchases.csv to purchases using COPY...
+2025-06-13 23:03:15,750 - ERROR - ❌ COPY failed for purchases: relation "purchases" does not exist
+
+2025-06-13 23:03:15,750 - WARNING - ⚠️ Falling back to chunk upload for purchases
+2025-06-13 23:03:15,750 - INFO - Uploading data/purchases.csv to purchases using pandas chunks...
+2025-06-13 23:03:18,307 - INFO -   Chunk 1 uploaded.
+2025-06-13 23:03:20,809 - INFO -   Chunk 2 uploaded.
+2025-06-13 23:03:23,340 - INFO -   Chunk 3 uploaded.
+2025-06-13 23:03:25,852 - INFO -   Chunk 4 uploaded.
+2025-06-13 23:03:28,352 - INFO -   Chunk 5 uploaded.
+2025-06-13 23:03:30,893 - INFO -   Chunk 6 uploaded.
+2025-06-13 23:03:33,430 - INFO -   Chunk 7 uploaded.
+2025-06-13 23:03:35,956 - INFO -   Chunk 8 uploaded.
+2025-06-13 23:03:38,504 - INFO -   Chunk 9 uploaded.
+2025-06-13 23:03:41,022 - INFO -   Chunk 10 uploaded.
+2025-06-13 23:03:43,609 - INFO -   Chunk 11 uploaded.
+2025-06-13 23:03:46,128 - INFO -   Chunk 12 uploaded.
+2025-06-13 23:03:48,690 - INFO -   Chunk 13 uploaded.
+2025-06-13 23:03:51,250 - INFO -   Chunk 14 uploaded.
+2025-06-13 23:03:53,746 - INFO -   Chunk 15 uploaded.
+2025-06-13 23:03:56,397 - INFO -   Chunk 16 uploaded.
+2025-06-13 23:03:58,941 - INFO -   Chunk 17 uploaded.
+2025-06-13 23:04:01,496 - INFO -   Chunk 18 uploaded.
+2025-06-13 23:04:04,047 - INFO -   Chunk 19 uploaded.
+2025-06-13 23:04:06,696 - INFO -   Chunk 20 uploaded.
+2025-06-13 23:04:09,261 - INFO -   Chunk 21 uploaded.
+2025-06-13 23:04:11,833 - INFO -   Chunk 22 uploaded.
+2025-06-13 23:04:14,347 - INFO -   Chunk 23 uploaded.
+2025-06-13 23:04:16,222 - INFO -   Chunk 24 uploaded.
+2025-06-13 23:04:16,226 - INFO - ⬆️ Uploading purchase_prices from data/purchase_prices.csv...
+2025-06-13 23:04:16,226 - INFO - Uploading data/purchase_prices.csv to purchase_prices using COPY...
+2025-06-13 23:04:16,226 - ERROR - ❌ COPY failed for purchase_prices: current transaction is aborted, commands ignored until end of transaction block
+
+2025-06-13 23:04:16,226 - WARNING - ⚠️ Falling back to chunk upload for purchase_prices
+2025-06-13 23:04:16,226 - INFO - Uploading data/purchase_prices.csv to purchase_prices using pandas chunks...
+2025-06-13 23:04:16,446 - INFO -   Chunk 1 uploaded.
+2025-06-13 23:04:16,448 - INFO - ⬆️ Uploading sales from data/sales.csv...
+2025-06-13 23:04:16,448 - INFO - Uploading data/sales.csv to sales using COPY...
+2025-06-13 23:04:16,448 - ERROR - ❌ COPY failed for sales: current transaction is aborted, commands ignored until end of transaction block
+
+2025-06-13 23:04:16,448 - WARNING - ⚠️ Falling back to chunk upload for sales
+2025-06-13 23:04:16,448 - INFO - Uploading data/sales.csv to sales using pandas chunks...
+2025-06-13 23:04:18,841 - INFO -   Chunk 1 uploaded.
+2025-06-13 23:04:21,150 - INFO -   Chunk 2 uploaded.
+2025-06-13 23:04:23,460 - INFO -   Chunk 3 uploaded.
+2025-06-13 23:04:25,792 - INFO -   Chunk 4 uploaded.
+2025-06-13 23:04:28,147 - INFO -   Chunk 5 uploaded.
+2025-06-13 23:04:30,425 - INFO -   Chunk 6 uploaded.
+2025-06-13 23:04:32,750 - INFO -   Chunk 7 uploaded.
+2025-06-13 23:04:35,093 - INFO -   Chunk 8 uploaded.
+2025-06-13 23:04:37,437 - INFO -   Chunk 9 uploaded.
+2025-06-13 23:04:39,710 - INFO -   Chunk 10 uploaded.
+2025-06-13 23:04:42,064 - INFO -   Chunk 11 uploaded.
+2025-06-13 23:04:44,415 - INFO -   Chunk 12 uploaded.
+2025-06-13 23:04:46,757 - INFO -   Chunk 13 uploaded.
+2025-06-13 23:04:49,076 - INFO -   Chunk 14 uploaded.
+2025-06-13 23:04:51,434 - INFO -   Chunk 15 uploaded.
+2025-06-13 23:04:53,738 - INFO -   Chunk 16 uploaded.
+2025-06-13 23:04:56,052 - INFO -   Chunk 17 uploaded.
+2025-06-13 23:04:58,342 - INFO -   Chunk 18 uploaded.
+2025-06-13 23:05:00,648 - INFO -   Chunk 19 uploaded.
+2025-06-13 23:05:02,983 - INFO -   Chunk 20 uploaded.
+2025-06-13 23:05:05,325 - INFO -   Chunk 21 uploaded.
+2025-06-13 23:05:07,667 - INFO -   Chunk 22 uploaded.
+2025-06-13 23:05:09,980 - INFO -   Chunk 23 uploaded.
+2025-06-13 23:05:12,259 - INFO -   Chunk 24 uploaded.
+2025-06-13 23:05:14,521 - INFO -   Chunk 25 uploaded.
+2025-06-13 23:05:16,931 - INFO -   Chunk 26 uploaded.
+2025-06-13 23:05:19,322 - INFO -   Chunk 27 uploaded.
+2025-06-13 23:05:21,712 - INFO -   Chunk 28 uploaded.
+2025-06-13 23:05:24,044 - INFO -   Chunk 29 uploaded.
+2025-06-13 23:05:26,511 - INFO -   Chunk 30 uploaded.
+2025-06-13 23:05:28,833 - INFO -   Chunk 31 uploaded.
+2025-06-13 23:05:31,160 - INFO -   Chunk 32 uploaded.
+2025-06-13 23:05:33,462 - INFO -   Chunk 33 uploaded.
+2025-06-13 23:05:35,773 - INFO -   Chunk 34 uploaded.
+2025-06-13 23:05:38,117 - INFO -   Chunk 35 uploaded.
+2025-06-13 23:05:40,469 - INFO -   Chunk 36 uploaded.
+2025-06-13 23:05:42,754 - INFO -   Chunk 37 uploaded.
+2025-06-13 23:05:45,112 - INFO -   Chunk 38 uploaded.
+2025-06-13 23:05:47,553 - INFO -   Chunk 39 uploaded.
+2025-06-13 23:05:49,961 - INFO -   Chunk 40 uploaded.
+2025-06-13 23:05:52,313 - INFO -   Chunk 41 uploaded.
+2025-06-13 23:05:54,616 - INFO -   Chunk 42 uploaded.
+2025-06-13 23:05:57,028 - INFO -   Chunk 43 uploaded.
+2025-06-13 23:05:59,466 - INFO -   Chunk 44 uploaded.
+2025-06-13 23:06:01,870 - INFO -   Chunk 45 uploaded.
+2025-06-13 23:06:04,248 - INFO -   Chunk 46 uploaded.
+2025-06-13 23:06:06,619 - INFO -   Chunk 47 uploaded.
+2025-06-13 23:06:09,053 - INFO -   Chunk 48 uploaded.
+2025-06-13 23:06:11,407 - INFO -   Chunk 49 uploaded.
+2025-06-13 23:06:13,800 - INFO -   Chunk 50 uploaded.
+2025-06-13 23:06:16,172 - INFO -   Chunk 51 uploaded.
+2025-06-13 23:06:18,532 - INFO -   Chunk 52 uploaded.
+2025-06-13 23:06:20,838 - INFO -   Chunk 53 uploaded.
+2025-06-13 23:06:23,223 - INFO -   Chunk 54 uploaded.
+2025-06-13 23:06:25,656 - INFO -   Chunk 55 uploaded.
+2025-06-13 23:06:28,030 - INFO -   Chunk 56 uploaded.
+2025-06-13 23:06:30,525 - INFO -   Chunk 57 uploaded.
+2025-06-13 23:06:33,003 - INFO -   Chunk 58 uploaded.
+2025-06-13 23:06:35,543 - INFO -   Chunk 59 uploaded.
+2025-06-13 23:06:37,972 - INFO -   Chunk 60 uploaded.
+2025-06-13 23:06:40,458 - INFO -   Chunk 61 uploaded.
+2025-06-13 23:06:42,835 - INFO -   Chunk 62 uploaded.
+2025-06-13 23:06:45,158 - INFO -   Chunk 63 uploaded.
+2025-06-13 23:06:47,539 - INFO -   Chunk 64 uploaded.
+2025-06-13 23:06:49,865 - INFO -   Chunk 65 uploaded.
+2025-06-13 23:06:52,246 - INFO -   Chunk 66 uploaded.
+2025-06-13 23:06:54,703 - INFO -   Chunk 67 uploaded.
+2025-06-13 23:06:57,067 - INFO -   Chunk 68 uploaded.
+2025-06-13 23:06:59,466 - INFO -   Chunk 69 uploaded.
+2025-06-13 23:07:01,815 - INFO -   Chunk 70 uploaded.
+2025-06-13 23:07:04,041 - INFO -   Chunk 71 uploaded.
+2025-06-13 23:07:06,486 - INFO -   Chunk 72 uploaded.
+2025-06-13 23:07:08,762 - INFO -   Chunk 73 uploaded.
+2025-06-13 23:07:11,124 - INFO -   Chunk 74 uploaded.
+2025-06-13 23:07:13,535 - INFO -   Chunk 75 uploaded.
+2025-06-13 23:07:15,895 - INFO -   Chunk 76 uploaded.
+2025-06-13 23:07:18,258 - INFO -   Chunk 77 uploaded.
+2025-06-13 23:07:20,625 - INFO -   Chunk 78 uploaded.
+2025-06-13 23:07:23,010 - INFO -   Chunk 79 uploaded.
+2025-06-13 23:07:25,417 - INFO -   Chunk 80 uploaded.
+2025-06-13 23:07:27,792 - INFO -   Chunk 81 uploaded.
+2025-06-13 23:07:30,097 - INFO -   Chunk 82 uploaded.
+2025-06-13 23:07:32,412 - INFO -   Chunk 83 uploaded.
+2025-06-13 23:07:34,772 - INFO -   Chunk 84 uploaded.
+2025-06-13 23:07:37,172 - INFO -   Chunk 85 uploaded.
+2025-06-13 23:07:39,534 - INFO -   Chunk 86 uploaded.
+2025-06-13 23:07:41,892 - INFO -   Chunk 87 uploaded.
+2025-06-13 23:07:44,273 - INFO -   Chunk 88 uploaded.
+2025-06-13 23:07:46,612 - INFO -   Chunk 89 uploaded.
+2025-06-13 23:07:49,014 - INFO -   Chunk 90 uploaded.
+2025-06-13 23:07:51,380 - INFO -   Chunk 91 uploaded.
+2025-06-13 23:07:53,779 - INFO -   Chunk 92 uploaded.
+2025-06-13 23:07:56,116 - INFO -   Chunk 93 uploaded.
+2025-06-13 23:07:58,432 - INFO -   Chunk 94 uploaded.
+2025-06-13 23:08:00,791 - INFO -   Chunk 95 uploaded.
+2025-06-13 23:08:03,160 - INFO -   Chunk 96 uploaded.
+2025-06-13 23:08:05,515 - INFO -   Chunk 97 uploaded.
+2025-06-13 23:08:07,874 - INFO -   Chunk 98 uploaded.
+2025-06-13 23:08:10,234 - INFO -   Chunk 99 uploaded.
+2025-06-13 23:08:12,632 - INFO -   Chunk 100 uploaded.
+2025-06-13 23:08:14,981 - INFO -   Chunk 101 uploaded.
+2025-06-13 23:08:17,338 - INFO -   Chunk 102 uploaded.
+2025-06-13 23:08:19,716 - INFO -   Chunk 103 uploaded.
+2025-06-13 23:08:22,095 - INFO -   Chunk 104 uploaded.
+2025-06-13 23:08:24,423 - INFO -   Chunk 105 uploaded.
+2025-06-13 23:08:26,903 - INFO -   Chunk 106 uploaded.
+2025-06-13 23:08:29,287 - INFO -   Chunk 107 uploaded.
+2025-06-13 23:08:31,687 - INFO -   Chunk 108 uploaded.
+2025-06-13 23:08:34,054 - INFO -   Chunk 109 uploaded.
+2025-06-13 23:08:36,418 - INFO -   Chunk 110 uploaded.
+2025-06-13 23:08:38,838 - INFO -   Chunk 111 uploaded.
+2025-06-13 23:08:41,222 - INFO -   Chunk 112 uploaded.
+2025-06-13 23:08:43,528 - INFO -   Chunk 113 uploaded.
+2025-06-13 23:08:45,937 - INFO -   Chunk 114 uploaded.
+2025-06-13 23:08:48,308 - INFO -   Chunk 115 uploaded.
+2025-06-13 23:08:50,665 - INFO -   Chunk 116 uploaded.
+2025-06-13 23:08:53,025 - INFO -   Chunk 117 uploaded.
+2025-06-13 23:08:55,451 - INFO -   Chunk 118 uploaded.
+2025-06-13 23:08:57,836 - INFO -   Chunk 119 uploaded.
+2025-06-13 23:09:00,198 - INFO -   Chunk 120 uploaded.
+2025-06-13 23:09:02,559 - INFO -   Chunk 121 uploaded.
+2025-06-13 23:09:04,920 - INFO -   Chunk 122 uploaded.
+2025-06-13 23:09:07,286 - INFO -   Chunk 123 uploaded.
+2025-06-13 23:09:09,608 - INFO -   Chunk 124 uploaded.
+2025-06-13 23:09:11,924 - INFO -   Chunk 125 uploaded.
+2025-06-13 23:09:14,211 - INFO -   Chunk 126 uploaded.
+2025-06-13 23:09:16,501 - INFO -   Chunk 127 uploaded.
+2025-06-13 23:09:18,759 - INFO -   Chunk 128 uploaded.
+2025-06-13 23:09:19,425 - INFO -   Chunk 129 uploaded.
+2025-06-13 23:09:19,427 - INFO - ⬆️ Uploading vendor_invoice from data/vendor_invoice.csv...
+2025-06-13 23:09:19,427 - INFO - Uploading data/vendor_invoice.csv to vendor_invoice using COPY...
+2025-06-13 23:09:19,427 - ERROR - ❌ COPY failed for vendor_invoice: current transaction is aborted, commands ignored until end of transaction block
+
+2025-06-13 23:09:19,427 - WARNING - ⚠️ Falling back to chunk upload for vendor_invoice
+2025-06-13 23:09:19,427 - INFO - Uploading data/vendor_invoice.csv to vendor_invoice using pandas chunks...
+2025-06-13 23:09:19,534 - INFO -   Chunk 1 uploaded.
+2025-06-13 23:09:19,535 - INFO - ⬆️ Uploading begin_inventory from data/begin_inventory.csv...
+2025-06-13 23:09:19,535 - INFO - Uploading data/begin_inventory.csv to begin_inventory using COPY...
+2025-06-13 23:09:19,536 - ERROR - ❌ COPY failed for begin_inventory: current transaction is aborted, commands ignored until end of transaction block
+
+2025-06-13 23:09:19,536 - WARNING - ⚠️ Falling back to chunk upload for begin_inventory
+2025-06-13 23:09:19,536 - INFO - Uploading data/begin_inventory.csv to begin_inventory using pandas chunks...
+2025-06-13 23:09:21,224 - INFO -   Chunk 1 uploaded.
+2025-06-13 23:09:22,901 - INFO -   Chunk 2 uploaded.
+2025-06-13 23:09:23,030 - INFO -   Chunk 3 uploaded.
+2025-06-13 23:09:23,031 - INFO - ⬆️ Uploading end_inventory from data/end_inventory.csv...
+2025-06-13 23:09:23,031 - INFO - Uploading data/end_inventory.csv to end_inventory using COPY...
+2025-06-13 23:09:23,031 - ERROR - ❌ COPY failed for end_inventory: current transaction is aborted, commands ignored until end of transaction block
+
+2025-06-13 23:09:23,031 - WARNING - ⚠️ Falling back to chunk upload for end_inventory
+2025-06-13 23:09:23,031 - INFO - Uploading data/end_inventory.csv to end_inventory using pandas chunks...
+2025-06-13 23:09:24,716 - INFO -   Chunk 1 uploaded.
+2025-06-13 23:09:26,465 - INFO -   Chunk 2 uploaded.
+2025-06-13 23:09:26,925 - INFO -   Chunk 3 uploaded.
+2025-06-13 23:09:26,926 - INFO - ✅ Ingestion complete in 6.19 minutes.
+2025-06-13 23:10:16,356 - INFO - 🚀 Starting data ingestion...
+2025-06-13 23:10:16,356 - INFO - ⬆️ Uploading purchases from data/purchases.csv...
+2025-06-13 23:10:16,368 - INFO - Uploading data/purchases.csv to purchases using COPY...
+2025-06-13 23:10:23,898 - INFO - ✅ COPY upload complete for purchases
+2025-06-13 23:10:23,898 - INFO - ⬆️ Uploading purchase_prices from data/purchase_prices.csv...
+2025-06-13 23:10:23,900 - INFO - Uploading data/purchase_prices.csv to purchase_prices using COPY...
+2025-06-13 23:10:23,912 - INFO - ✅ COPY upload complete for purchase_prices
+2025-06-13 23:10:23,913 - INFO - ⬆️ Uploading sales from data/sales.csv...
+2025-06-13 23:10:23,914 - INFO - Uploading data/sales.csv to sales using COPY...
+2025-06-13 23:10:55,891 - INFO - ✅ COPY upload complete for sales
+2025-06-13 23:10:55,892 - INFO - ⬆️ Uploading vendor_invoice from data/vendor_invoice.csv...
+2025-06-13 23:10:55,899 - INFO - Uploading data/vendor_invoice.csv to vendor_invoice using COPY...
+2025-06-13 23:10:55,904 - INFO - ✅ COPY upload complete for vendor_invoice
+2025-06-13 23:10:55,904 - INFO - ⬆️ Uploading begin_inventory from data/begin_inventory.csv...
+2025-06-13 23:10:55,906 - INFO - Uploading data/begin_inventory.csv to begin_inventory using COPY...
+2025-06-13 23:10:56,252 - INFO - ✅ COPY upload complete for begin_inventory
+2025-06-13 23:10:56,252 - INFO - ⬆️ Uploading end_inventory from data/end_inventory.csv...
+2025-06-13 23:10:56,255 - INFO - Uploading data/end_inventory.csv to end_inventory using COPY...
+2025-06-13 23:10:56,602 - INFO - ✅ COPY upload complete for end_inventory
+2025-06-13 23:10:56,602 - INFO - ✅ Ingestion complete in 0.67 minutes.
